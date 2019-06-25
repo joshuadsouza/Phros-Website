@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- open-iconic-bootstrap (icon set for bootstrap) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Phros</title>
   </head>
@@ -20,6 +23,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Value</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
           </li>
@@ -44,6 +50,15 @@
     </div>
     <!-- End of Phros Intro -->
 
+
+    <!-- Phros CTA -->
+    <div class="container mt-3 mb-3">
+      <div class="row justify-content-center">
+        <a class="btn btn-outline-primary btn-lg col-3">Buy Now!</a>
+      </div>
+    </div>
+    <!-- End of Phros CTA-->
+
     <!-- Phros Image & Features -->
     <div class="container pt-5 pb-5 mt-5 mb-5">
       <div class="row align-self-center justify-content-center">
@@ -62,8 +77,11 @@
             </p>
           </div>
         </div>
-        <div data-aos="fade-left" class="col-md">
-          <img src="./images/phone-image.jpg" class="img-fluid" alt="app image"/>
+        <div data-aos="fade-left" class="col-md-3">
+          <img src="./images/app2.jpeg" class="img-fluid border border-dark" alt="app image"/>
+        </div>
+        <div data-aos="fade-left" class="col-md-3">
+          <img src="./images/app1.jpeg" class="img-fluid border border-dark" alt="app image"/>
         </div>
       </div>
     </div>
@@ -72,7 +90,7 @@
 
 
 
-    <!-- Subscribe Button -->
+    <!-- Subscribe Button
     <div data-aos="zoom-in" data-aos-duration="400" class="container mt-5 mb-5">
       <div class="row justify-content-center">
         <div class="col-10">
@@ -85,42 +103,48 @@
         </div>
       </div>
     </div>
-    <!-- Subscribe Form Input 2-->
+     Subscribe Form Input 2-->
 
-
-    <!-- Phros Image & Feautes # 2-->
-    <div class="container pt-5 pb-5 mt-5 mb-5">
-      <div class="row align-self-center justify-content-center">
-        <div data-aos="fade-right" data-aos-duration="400" class="col-md">
-          <img src="./images/uber-image.jpg" class="img-fluid" alt="app image"/>
+    <!-- Phros Image and Feature Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col p-4">
+          <h1 class="display-4"><span class="oi oi-person" title="person" aria-hidden="true"></span> Feature 1</h1>
+          <p class="lead">This is some description about feature 1 of the product</p>
         </div>
-        <div class="col-md align-self-center">
-          <div data-aos="fade-left" class="row p-5">
-            <h3>High quality fitness data analytics.</h3>
-            <p class="lead mb-5">
-              Our algorithms are the brains that act as your personal trainer. Real-time analysis, long term pattern recognition, and the 
-              ability to recognize your strengths and weaknesses allow you to work on yourself, without worrying about the numbers.
-            </p>
-            <h3>The hardware behind the magic.</h3>
-            <p class="lead mb-3">
-              Sensors: A 10 DoF IMU with an accelerometer, gyroscope, magnetometer, and barometer. The same technology used in 
-              military grade UAVs and satellites.
-              Battery: High quality, rechargable lithium-ion battery giving you days of active time and weeks of downtime.
-              Connectivity: BLE technology allows you to sync to your phone during your workouts to get real time feedback.
-            </p>
-          </div>
+        <div class="col p-4">
+          <h1 class="display-4"><span class="oi oi-bar-chart" title="person" aria-hidden="true"></span> Feature 2</h1>
+          <p class="lead">This is some description about feature 2 of the product</p>
+        </div>
+        <div class="col p-4">
+          <h1 class="display-4"><span class="oi oi-book" title="person" aria-hidden="true"></span> Feature 3</h1>
+          <p class="lead">This is some description about feature 3 of the product</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col p-4">
+          <h1 class="display-4"><span class="oi oi-bluetooth" title="person" aria-hidden="true"></span> Feature 4</h1>
+          <p class="lead">This is some description about feature 4 of the product</p>
+        </div>
+        <div class="col p-4">
+          <h1 class="display-4"><span class="oi oi-comment-square" title="person" aria-hidden="true"></span> Feature 5</h1>
+          <p class="lead">This is some description about feature 5 of the product</p>
+        </div>
+        <div class="col p-4">
+          <h1 class="display-4"><span class="oi oi-heart" title="person" aria-hidden="true"></span> Feature 6</h1>
+          <p class="lead">This is some description about feature 6 of the product</p>
         </div>
       </div>
     </div>
-    <!-- End of Phros Image & Feautes # 2-->
 
+    <!-- End of Phros Image and Feature Selection-->
 
     <!-- Pricing -->
     <div data-aos="zoom-in" data-aos-duration="400" class="container p-5">
       <div class="row justify-content-center">
         <h1 class="display-4">Professional tools at an entry level price.</h1>
       </div>
- 
+
       <div class="card-deck mb-3 text-center mt-5">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -155,6 +179,14 @@
       </div>
 
     <!-- End of Pricing -->
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-center">
+        <a class="btn btn-outline-primary btn-lg col-3">Contact Us</a>
+      </div>
+    </div>
+    <!-- Contact Us Button -->
+
+    <!-- End of Contact Us Button -->
 
     <!-- Phros Video -->
 
@@ -204,9 +236,27 @@
 
 
 
-    <!-- Footer Start -->
-
-    <!-- End of Footer -->
+    <!-- Footer Start
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a class="lead">P H R O S</a>
+        </div>
+        <div class="col">
+          <a href="https://www.instagram.com/tanzanitetorontosocial/" class="fa fa-instagram m-3" target="_blank"></a>
+        </div>
+      </div>
+      <div class="row">
+        <a class="lead">Features</a>
+      </div>
+      <div class="row">
+        <a class="lead">Buy Now</a>
+      </div>
+      <div class="row">
+        <a class="lead">Contact Us</a>
+      </div>
+    </div>
+    End of Footer -->
 
 
 
@@ -217,8 +267,10 @@
     <script>
       AOS.init();
     </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
   </body>
 </html>
