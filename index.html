@@ -1,6 +1,25 @@
 <!doctype html>
 <html lang="en">
   <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142866151-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142866151-1');
+  </script>
+  <!-- End of Analytics Tag -->
+  <!-- Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WBCFS4D');</script>
+  <!-- End Google Tag Manager -->
+  <!-- End of Google Tag Manager -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,13 +27,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- open-iconic-bootstrap (icon set for bootstrap) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Phros</title>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBCFS4D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Phros Nav & Title -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Phros</a>
@@ -24,16 +46,19 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Value</a>
+            <a class="nav-link" href="#our-value">Our Value</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#price">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Buy now!</a>
+            <a class="nav-link" href="./buy-now.html">Buy Now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto: phros.fitness@gmail.com">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -54,13 +79,13 @@
     <!-- Phros CTA -->
     <div class="container mt-3 mb-3">
       <div class="row justify-content-center">
-        <a class="btn btn-outline-primary btn-lg col-3">Buy Now!</a>
+        <a class="btn btn-outline-primary btn-lg col-3" href="./buy-now.html">Buy Now!</a>
       </div>
     </div>
     <!-- End of Phros CTA-->
 
     <!-- Phros Image & Features -->
-    <div class="container pt-5 pb-5 mt-5 mb-5">
+    <div class="container pt-5 pb-5 mt-5 mb-5" id="our-value">
       <div class="row align-self-center justify-content-center">
         <div class="col-md align-self-center">
           <div data-aos="fade-right" data-aos-duration="400" class="row p-5">
@@ -88,59 +113,37 @@
 
     <!-- End of Phros Image & Features -->
 
-
-
-    <!-- Subscribe Button
-    <div data-aos="zoom-in" data-aos-duration="400" class="container mt-5 mb-5">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <form>
-            <div class="form-group">
-              <input type="email" class="form-control form-control-lg text-center" id="exampleInputEmail" placeholder="Subscribe For More Information">
-              <small id="emailHelp" class="form-text text-muted text-center">We'll never share your email with anyone else.</small>
+    <!-- Phros Image & Features -->
+    <div class="container pt-5 pb-5 mt-5 mb-5" id="feature">
+        <div class="row align-self-center justify-content-center">
+          <div data-aos="fade-right" class="col-md-3">
+            <img src="./images/app2.jpeg" class="img-fluid border border-dark" alt="app image"/>
+          </div>
+          <div data-aos="fade-right" class="col-md-3">
+            <img src="./images/app1.jpeg" class="img-fluid border border-dark" alt="app image"/>
+          </div>
+          <div class="col-md align-self-center">
+            <div data-aos="fade-left" data-aos-duration="400" class="row p-5">
+              <h3>Log your exercises automatically.</h3>
+              <p class="lead mb-5">
+                Our device tracks your sets, reps, miles, steps, paces, calories burnt,
+                so you don't have to. With this, we can show you exactly how much progress you're making
+                towards your specific fitness goals.
+              </p>
+              <h3>Your Own Personal Trainer, Available 24/7</h3>
+              <p class="lead mb-3">
+                Our algorithms analyze your data in order to suggest where you can improve
+                  to achieve your goals quickly. Get answers to your questions anytime, anywhere.
+              </p>
             </div>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
-     Subscribe Form Input 2-->
 
-    <!-- Phros Image and Feature Section -->
-    <div class="container">
-      <div class="row">
-        <div class="col p-4">
-          <h1 class="display-4"><span class="oi oi-person" title="person" aria-hidden="true"></span> Feature 1</h1>
-          <p class="lead">This is some description about feature 1 of the product</p>
-        </div>
-        <div class="col p-4">
-          <h1 class="display-4"><span class="oi oi-bar-chart" title="person" aria-hidden="true"></span> Feature 2</h1>
-          <p class="lead">This is some description about feature 2 of the product</p>
-        </div>
-        <div class="col p-4">
-          <h1 class="display-4"><span class="oi oi-book" title="person" aria-hidden="true"></span> Feature 3</h1>
-          <p class="lead">This is some description about feature 3 of the product</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col p-4">
-          <h1 class="display-4"><span class="oi oi-bluetooth" title="person" aria-hidden="true"></span> Feature 4</h1>
-          <p class="lead">This is some description about feature 4 of the product</p>
-        </div>
-        <div class="col p-4">
-          <h1 class="display-4"><span class="oi oi-comment-square" title="person" aria-hidden="true"></span> Feature 5</h1>
-          <p class="lead">This is some description about feature 5 of the product</p>
-        </div>
-        <div class="col p-4">
-          <h1 class="display-4"><span class="oi oi-heart" title="person" aria-hidden="true"></span> Feature 6</h1>
-          <p class="lead">This is some description about feature 6 of the product</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- End of Phros Image and Feature Selection-->
+      <!-- End of Phros Image & Features -->
 
     <!-- Pricing -->
-    <div data-aos="zoom-in" data-aos-duration="400" class="container p-5">
+    <div data-aos="zoom-in" data-aos-duration="400" class="container p-5" id="price">
       <div class="row justify-content-center">
         <h1 class="display-4">Professional tools at an entry level price.</h1>
       </div>
@@ -181,85 +184,69 @@
     <!-- End of Pricing -->
     <div class="container mt-5 mb-5">
       <div class="row justify-content-center">
-        <a class="btn btn-outline-primary btn-lg col-3">Contact Us</a>
+        <a class="btn btn-outline-primary btn-lg col-3" href="mailto: phros.fitness@gmail.com">Contact Us</a>
       </div>
     </div>
     <!-- Contact Us Button -->
 
-    <!-- End of Contact Us Button -->
+<!-- Footer -->
+<footer class="container-fluid pt-4">
 
-    <!-- Phros Video -->
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
 
-    <!-- End of Phros Video -->
+    <!-- Grid row -->
+    <div class="row justify-content-center">
 
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
 
-
-
-
-    <!-- First CALL TO ACTION -->
-
-    <!-- End of first CALL TO ACTION -->
-
-
-
-
-
-    <!-- Our Mission Statement -->
-
-    <!-- End of Our Mission Statement -->
-
-
-
-
-
-    <!-- Second CALL TO ACTION -->
-
-    <!-- End of Second CALL TO ACTION -->
-
-
-
-
-
-    <!-- Problem Statement -->
-
-    <!-- End of Problem Statement -->
-
-
-
-
-
-    <!-- Solution Statement -->
-
-    <!-- End of Solution Statement -->
-
-
-
-
-
-    <!-- Footer Start
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <a class="lead">P H R O S</a>
-        </div>
-        <div class="col">
-          <a href="https://www.instagram.com/tanzanitetorontosocial/" class="fa fa-instagram m-3" target="_blank"></a>
-        </div>
+        <!-- Content -->
+        <h5 class="text-uppercase">Some Content</h5>
+        <p>Give some brief description about Phros.</p>
+        <a href="https://www.instagram.com/phrosfitness/" class="fa fa-instagram p-3" target="_blank"></a>
       </div>
-      <div class="row">
-        <a class="lead">Features</a>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">PHROS</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a class="text-dark" href="#our-value">Our Value</a>
+          </li>
+          <li>
+            <a class="text-dark"  href="#feature">Features</a>
+          </li>
+          <li>
+            <a class="text-dark" href="mailto: phros.fitness@gmail.com">Contact Us</a>
+          </li>
+          <li>
+            <a class="text-dark" href="./buy-now.html">Buy Now</a>
+          </li>
+        </ul>
+
       </div>
-      <div class="row">
-        <a class="lead">Buy Now</a>
-      </div>
-      <div class="row">
-        <a class="lead">Contact Us</a>
-      </div>
+      <!-- Grid column -->
+
     </div>
-    End of Footer -->
+    <!-- Grid row -->
 
+  </div>
+  <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="http://phros.org"> Phros.com</a>
+    </div>
+    <!-- Copyright -->
 
-
+  </footer>
+  <!-- Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
